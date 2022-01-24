@@ -1,0 +1,325 @@
+
+.clothes_box{
+    border:3px solid palevioletred;
+    height:700px;
+    position: relative;
+    top: 600px;
+    z-index: -1;
+    box-shadow: 7px 12px 28px #0a0303;
+}
+
+
+/* ADD RELEATED WORKS  */
+
+.add{
+    height: 674px;
+    width: 200px;
+    border: 2px solid white;
+    position: absolute;
+top: 20px;
+top: 610px;
+z-index: -1;
+/* left: 206px; */
+display: flex;
+flex-direction: column;
+
+
+
+}
+.add .offers{
+    border:2px solid white;
+    height: 274px;
+    width: 190px;
+    margin-left: 5px;
+    background-color: #e9bdbd82;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add .b_add_img{
+    border:2px solid white;
+    height: 190px;
+    width: 190px;
+    margin-left: 5px;
+    animation-name: b_img;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: 0.5s;
+}
+@keyframes b_img {
+    0%{
+        background-image: url('add/boys/38-11326924-roadster-original-imafqehucygehgsd.jpeg');
+        background-size: 190px 190px;
+    }
+    10%{
+        background-image: url('images/b-shirt5/38-11326924-roadster-original-imafqehuvyygmp9t.jpeg');
+        background-size: 190px 190px;
+    }
+    20%{
+        background-image: url('images/b-jeans11/l-1-vrma-original-imafwnfhxnvwb8kh.jpeg');
+        background-size: 190px 190px;
+    }
+    30%{
+        background-image: url('images/b-shirt8/l-c301-dustygreen-dennis-lingo-original-imafzvvr7q8zn9kh.jpeg');
+        background-size: 190px 190px;
+    }
+    40%{
+        background-image: url('images/b-shirt/38-2284523-roadster-original-imafgmrbvdh3jhuv.jpeg');
+        background-size: 190px 190px;
+    }
+    50%{
+        background-image: url('jeans/jeans2/j3.jpeg');
+        background-size: 190px 190px;
+    }
+    60%{
+        background-image: url('add/boys/shirt1.jpeg');
+        background-size: 190px 190px;
+    }
+    70%{
+        background-image: url('add/boys/l-c301-dustygreen-dennis-lingo-original-imafzvvr7q8zn9kh.jpeg');
+        background-size: 190px 190px;
+    }
+    80%{
+        background-image: url('add/boys/jeans1.jpeg');
+        background-size: 190px 190px;
+    }
+    90%{
+        background-image: url('add/boys/38-2284523-roadster-original-imafgmrbvdh3jhuv.jpeg');
+        background-size: 190px 190px;
+    }
+    100%{
+        background-image: url('add/boys/38-11326924-roadster-original-imafqehuvyygmp9t.jpeg');
+        background-size: 190px 190px;
+    }
+    
+}
+.add .g_add_img{
+    border:2px solid white;
+    height: 190px;
+    width: 190px;
+    margin-left: 5px;
+    animation-name: g_img;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+@keyframes g_img {
+    0%{
+        background-image: url('add/girls/34-w-jeans-5-button-plus91-original-imag4ahuehquau8s.jpeg');
+        background-size: 190px 190px;
+    }
+    10%{
+        background-image: url('images/g-top4/top\ \(1\).jpeg');
+        background-size: 190px 190px;
+    }
+    20%{
+        background-image: url('images/g-jeans3/34-w-jeans-5-button-plus91-original-imag4ahuehquau8s.jpeg');
+        background-size: 190px 190px;
+    }
+    30%{
+        background-image: url('images/g_jeans/30-2f2m3-t82-f2m-original-imagffyddf7awq2p.jpeg');
+        background-size: 190px 190px;
+    }
+    40%{
+        background-image: url('images/g-top5/xl-d-426-clothzy-original-imag849nmfffvpmk.jpeg');
+        background-size: 190px 190px;
+    }
+    50%{
+        background-image: url('add/girls/xxl-52-kamdev-original-imafyd6s2bcgxqfk.jpeg');
+        background-size: 190px 190px;
+    }
+    60%{
+        background-image: url('add/girls/xl-d-426-clothzy-original-imag849ndfghu7zv.jpeg');
+        background-size: 190px 190px;
+    }
+    70%{
+        background-image: url('add/girls/s-74tk2235-selvia-original-imafwyshhjdbsuyc.jpeg');
+        background-size: 190px 190px;
+    }
+    80%{
+        background-image: url('add/girls/l-ser-kurti-a-100-serein-original-imafp4yhgdfzm7zb\ \(1\).jpeg');
+        background-size: 190px 190px;
+    }
+    90%{
+        background-image: url('add/girls/l-d-425-clothzy-original-imag849eeesfnfth.jpeg');
+        background-size: 190px 190px;
+    }
+    100%{
+        background-image: url('add/girls/l-d-425-clothzy-original-imag849eczz5nmzx.jpeg');
+        background-size: 190px 190px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clothes{
+    height: 410px;
+    width: 410px;
+border-radius: 2px solid red;
+border: 6px solid white;
+position: absolute;
+top: 20px;
+left: 206px;
+top: 610px;
+z-index: -1;
+background-color: #67745a;
+
+
+}
+
+
+
+.clothes a img{
+    width: 409px;
+    height: 272px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    z-index: -1;
+
+
+}
+.clothes1{
+    height: 410px;
+    width: 410px;
+/* border-radius: 2px solid red; */
+/* border: 11px solid red; */
+position: absolute;
+top: 20px;
+left: 630px;
+top: 610px;
+z-index: -1;
+
+
+}
+
+.clothes_animation{
+    width:410px;
+    height:410px;
+    border:4px solid white;
+    position: absolute;
+    top:20px;
+    right:20px;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: 0.5s;
+    top: 610px;
+    z-index: -1;
+}
+@keyframes anim {
+    0%{
+background-image: url('jeans/jeans1/j3.jpeg');
+background-size: 410px 410px;
+transform: scale(0.9);
+    }
+    10%{
+        background-image: url('images/b--jeans6/38-hpsjogger-wgrey-urbano-fashion-original-imafggj23hmb4j4s.jpeg');
+        background-size: 410px 410px;
+        transform: scale(1);
+
+        
+    }
+    20%{
+        background-image: url('images/b-shirt8/l-c301-dustygreen-dennis-lingo-original-imafzvvrcbuzatw6.jpeg');
+        background-size: 410px 410px;
+        transform: scale(0.9);
+    }
+    30%{
+        background-image: url('images/g-top/l-74tkj2235-l-siril-original-imafh36aqhzgdzeh.jpeg');
+        background-size: 410px 410px;
+        transform: scale(1);
+    }
+    40%{
+        background-image: url('images/g_jeans/30-2f2m3-t82-f2m-original-imagffyddf7awq2p.jpeg');
+        background-size: 410px 410px;
+        transform: scale(0.9);
+    }
+    50%{
+        background-image: url('images/b-jeans/jeans3.jpeg');
+        background-size: 410px 410px;
+        transform: scale(1);
+    }
+    60%{
+        background-image: url('images/b-shirt/38-11326924-roadster-original-imafqehucygehgsd.jpeg');
+        background-size: 410px 410px;
+        transform: scale(0.9);
+    }
+    70%{
+        background-image: url('images/b-shirt/38-2284523-roadster-original-imafgmrbjz5jkzwu\ \(1\).jpeg');
+        background-size: 410px 410px;
+        transform: scale(1);
+
+    }
+    80%{
+        background-image: url('images/g-top7/l-d-425-clothzy-original-imag849eeesfnfth.jpeg');
+        background-size: 410px 410px;
+        transform: scale(0.9);
+    }
+    90%{
+        background-image: url('images/b-shirt2/42-2284523-roadster-original-imafgmrbm6jcme6g.jpeg');
+        background-size: 410px 410px;
+        transform: scale(1);
+    }
+    100%{
+        background-image: url('images/b-jeans10/32-dplaindori-light-greyl1-plus91-original-imafrcfutzxagnww.jpeg');
+        background-size: 410px 410px;
+        transform: scale(0.9);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clothes_bottom{
+    width: 1284px;
+    height: 246px;
+    border: 3px solid white;
+    position: absolute;
+    top: 1037px;
+    /* top: 610px; */
+    left: 207px;
+    z-index: -1;
+}
+.clothes_bottom img{
+    width: 180px;
+    height: 242px;
+    margin-top: 3px;
+    cursor: pointer;
+
+}

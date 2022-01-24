@@ -1,0 +1,345 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    color:wheat;
+    width: 100vw;
+    height: 15vh;
+    background-color: blue;
+    text-shadow: 1px 2px 3px black,1px 2px 3px red,1px 2px 3px white;
+    position: fixed;
+    box-shadow: 2px 4px 1px #060d72;
+
+}
+.logo_contact_search{
+    width: 98.5vw;
+    height: 9vh;
+    display: flex;
+  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+   
+  
+}
+.box{
+    position: relative;
+}
+#profile{
+    display: block;
+position: absolute;
+right: 70px;
+bottom: 48px;
+}
+.logo_contact_search h1{
+    margin-left: 12px;
+    text-shadow: 1px 2px 3px black,2px 3px 6px red,2px 3px 6px white;
+    display: block;
+    position: absolute;
+    left: 129px;
+}
+.logo_contact_search  img{
+    display: block;
+    float: right;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+left: 38px;
+}
+#college{
+    width: 50px;
+}
+.logo_contact_search input{
+margin: 0px auto;
+margin: 0px auto;
+width: 727px;
+/* padding-top: 8px; */
+padding: 5px;
+font-size: 1.5rem;
+color: #100d0d;
+background-color:white;
+border-radius: 15px;
+border-color: pink;
+margin-left: 245px;
+
+}
+#search{
+    /* display: block; */
+    /* position: absolute; */
+}
+.list{
+    
+    display: flex;
+    float: right;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+#list_name{
+    margin-right: 20px;
+}
+.list ul{
+  
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.list ul a{
+    text-decoration: none;
+}
+.list ul li{
+
+    margin: 10px;
+}
+.list ul a li {
+
+    color:wheat;
+}
+.item_list{
+
+}
+.item_list .main_container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+    color:wheat;
+}
+.item_list .main_container li{
+    margin: 13px;cursor: pointer;
+}
+.navbar{
+    margin-bottom: 10px;
+}
+ /* material item  */
+
+ /* #food{
+    display: block;
+    position: fixed;
+    left: 60px;
+ } */
+ #food #foodMaterial{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+     margin-top: 10px;
+     display: none;
+     text-decoration: none;
+     list-style: none;
+     line-height: 6px;
+     
+ }
+ #food:hover #foodMaterial{
+     display: flex;
+     flex-direction: column;
+ }
+ #clothes #clothesMaterial{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+    margin-top: 10px;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 6px;
+ }
+ #clothes{
+     display: block;
+     position: fixed;
+     left: 60px;
+ }
+
+ /* clothes information and dat a  */
+ .infor{
+    position: absolute;
+    top: 272px;
+    /* left: 15px; */
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px -2px 0px 2px white;
+    width: 410px;
+ }
+ .money{
+     display: flex;
+
+ }
+ .money .off{
+    position: absolute;
+    top: 69px;
+    left: 53px;
+    color: #043d04;
+    text-decoration: 2px #854a4a8f line-through;
+ }
+
+
+ #clothes:hover #clothesMaterial{
+    display: flex;
+     flex-direction: column; 
+ }
+ #foot_wear{
+    display: block;
+    position: fixed;
+    left: 150px;
+ }
+ #foot_wear  #foot_wear_material{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+    margin-top: 10px;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 6px;
+ }
+
+ #foot_wear:hover  #foot_wear_material{
+    display: flex;
+    flex-direction: column; 
+ }
+ #cosmatic{
+    display: block;
+    position: fixed;
+    left: 250px;
+ }
+ #cosmatic #cosmatic_material{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+    margin-top: 10px;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 6px;
+ }
+ #cosmatic:hover #cosmatic_material{
+    display: flex;
+    flex-direction: column; 
+ }
+#electrionics{
+    display: block;
+    position: fixed;
+    left: 350px;
+
+}
+ #electrionics #electrionics_material{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+    margin-top: 10px;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 6px;
+ }
+ #electrionics:hover #electrionics_material{
+    display: flex;
+    flex-direction: column; 
+ }
+ #books{
+    display: block;
+    position: fixed;
+    left: 450px;
+ }
+ #books #books_material{
+     position: relative;
+     border-radius: 10px;
+     background-color: #b7d6d0;
+     color: black;
+    margin-top: 10px;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 6px;
+ }
+ #books:hover #books_material{
+    display: flex;
+    flex-direction: column; 
+ }
+  
+
+ /* childeren list  */
+ #branch{
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+     width: 300px;
+     display: none;
+     position: absolute;
+     left: 225px;
+     list-style: none;
+ }
+ #engineering:hover #branch{
+     display: flex;
+     flex-direction: column;
+ }
+ #batch{
+     list-style: none;
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+     width: 200px;
+     display: none;
+     position: absolute;
+     left: 224px;
+     list-style: none;
+ }
+ #class:hover #batch{
+     display: flex;
+     flex-direction: column;
+
+ }
+ #general_book{
+    list-style: none;
+   border-radius: 10px;
+   background-color: #b7d6d0;
+   color: black;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 224px;
+    list-style: none;
+}
+
+#general:hover #general_book{
+    display: flex;
+    flex-direction: column;
+}
+#dry_food_material{
+    list-style: none;
+   border-radius: 10px;
+   background-color: #b7d6d0;
+   color: black;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 130px;
+    list-style: none;
+
+}
+#dry_fruit:hover #dry_food_material{
+    display: flex;
+    flex-direction: column;
+}
+#green_fruit_material{
+    list-style: none;
+    border-radius: 10px;
+    background-color: #b7d6d0;
+    color: black;
+     width: 150px;
+     display: none;
+     position: absolute;
+     left: 130px;
+     list-style: none;
+    }
+#green_fruit:hover  #green_fruit_material{
+    display: flex;
+    flex-direction: column;
+}
+/* HEADING STATEMENT     */
+
